@@ -3,7 +3,7 @@ name: Update Dandelion DNSBL
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 8 * * *"
+    - cron: "17 8,20 * * *"
 
 permissions:
   contents: write
